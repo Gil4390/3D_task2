@@ -1,0 +1,15 @@
+207919374_315309666
+
+The files that changed are:
+1) BasicScene.h
+2) BasicScene.cpp
+
+The functions that we added:
+1) CreateBox - for creating a box and define her attributes
+2) CheckCollisionDetection - for managing the trees and the queue of the alignes boxes
+3) Intersects - for checking the 15 terms for collision detection
+4) MakeDvector - helper function for Intersects to calculate variables
+
+The data structures that we added:
+1) std::shared_ptr<cg3d::Model> obj1, obj2, bb1, bb2, fbb1, fbb2
+2) igl::AABB< Eigen::MatrixXd, 3> tree1, tree2
